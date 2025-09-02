@@ -1,6 +1,6 @@
 import java.util.*;
 
-class VowelConsonantType {
+public class VowelConsonantType {
     static String checkChar(char c) {
         if (c >= 'A' && c <= 'Z') c = (char)(c + 32); // to lowercase
         if ((c >= 'a' && c <= 'z')) {

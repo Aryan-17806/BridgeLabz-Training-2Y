@@ -1,4 +1,4 @@
-class StudentGrades {
+public class StudentGrades {
     static int[][] generateMarks(int students) {
         int[][] scores = new int[students][3];
         for (int i = 0; i < students; i++) {

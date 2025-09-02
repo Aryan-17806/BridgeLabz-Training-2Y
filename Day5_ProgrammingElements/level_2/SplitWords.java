@@ -1,6 +1,6 @@
 import java.util.*;
 
-class SplitWords {
+public class SplitWords {
 
     static String[] customSplit(String str) {
         int n = str.length();

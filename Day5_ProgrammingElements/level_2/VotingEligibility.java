@@ -1,4 +1,4 @@
-class VotingEligibility {
+public class VotingEligibility {
     static int[] generateAges(int n) {
         int[] ages = new int[n];
         for (int i = 0; i < n; i++) {

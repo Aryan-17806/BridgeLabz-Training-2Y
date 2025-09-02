@@ -1,6 +1,6 @@
 import java.util.*;
 
-class RockPaperScissors {
+public class RockPaperScissors {
     static String getComputerChoice() {
         int val = (int)(Math.random() * 3);
         if (val == 0) return "rock";

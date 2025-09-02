@@ -1,6 +1,6 @@
 import java.util.*;
 
-class TrimSpaces {
+public class TrimSpaces {
     static int[] findTrimIndexes(String str) {
         int n = str.length();
         int start = 0, end = n - 1;

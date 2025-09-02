@@ -1,6 +1,6 @@
 import java.util.*;
 
-class ShortestLongest {
+public class ShortestLongest {
     static int getLength(String str) {
         int count = 0;
         try { while (true) { str.charAt(count); count++; } }

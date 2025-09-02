@@ -1,6 +1,6 @@
 import java.util.*;
 
-class VowelsConsonants {
+public class VowelsConsonants {
     static boolean isLetter(char c) {
         return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
     }

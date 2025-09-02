@@ -1,6 +1,6 @@
 import java.util.*;
 
-class WordsWithLength {
+public class WordsWithLength {
     static int getLength(String str) {
         int count = 0;
         try {
