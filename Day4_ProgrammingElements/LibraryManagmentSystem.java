@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
 class Book {
     private String title;
     private String author;
@@ -41,7 +40,7 @@ class Library {
     }
 }
 
-public class Library {
+public class LibraryManagmentSystem {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -90,7 +89,7 @@ public class Library {
             }
         }
 
-        System.out.println("===== Library Details =====");
+        System.out.println("\n===== Library Details =====");
         for (Library lib : libraries) {
             lib.showLibraryDetails();
         }
