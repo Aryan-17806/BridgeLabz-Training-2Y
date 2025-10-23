@@ -25,7 +25,6 @@ abstract class Employee implements Department {
         System.out.println("Base Salary: " + baseSalary);
         System.out.println("Department: " + getDepartmentDetails());
         System.out.println("Total Salary: " + calculateSalary());
-        System.out.println("-----------------------------");
     }
 
     public int getEmployeeId() {
@@ -133,7 +132,7 @@ public class EmployeeManagementSystem {
             employees.add(emp);
         }
 
-        System.out.println("\n--- Employee Details ---");
+        System.out.println("Employee Details");
         for (Employee e : employees) {
             e.displayDetails();
         }
