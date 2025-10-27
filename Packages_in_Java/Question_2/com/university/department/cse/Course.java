@@ -1,3 +1,5 @@
+package Question_2;
+
 package com.university.department.cse;
 
 public class Course {

@@ -1,3 +1,4 @@
+package Question_3;
 
 import static java.lang.Math.*;
 public class usePackage {
