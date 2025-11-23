@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class FibonacciProgram {
-    public static void main(String[] args) {
+public class Q3 {
+        public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter N: ");

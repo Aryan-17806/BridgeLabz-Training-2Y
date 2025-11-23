@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class NthPrimeProgram {
-    public static void main(String[] args) {
+public class Q4 {
+        public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter N: ");
@@ -19,7 +19,6 @@ public class NthPrimeProgram {
         input.close();
     }
 
-    // Function to check if prime
     public static boolean isPrime(int x) {
         if (x <= 1) return false;
         for (int i = 2; i <= Math.sqrt(x); i++) {
